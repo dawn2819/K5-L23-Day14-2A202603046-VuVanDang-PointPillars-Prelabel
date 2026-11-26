@@ -1,0 +1,198 @@
+{
+  "A": {
+    "totals": {
+      "gt": 29,
+      "pred": 93,
+      "match": 25,
+      "delete": 68,
+      "add": 4,
+      "edit": 0,
+      "cost": 24.4
+    },
+    "classes": {
+      "delete": {
+        "Car": 38,
+        "Cyclist": 27,
+        "Pedestrian": 3
+      },
+      "add": {
+        "Car": 1,
+        "Bus": 2,
+        "Cyclist": 1
+      },
+      "edit": {}
+    },
+    "per_frame": {
+      "s01f20": {
+        "gt": 14,
+        "pred": 36,
+        "match": 12,
+        "delete": 24,
+        "add": 2,
+        "edit": 0,
+        "cost": 9.2
+      },
+      "s04f41": {
+        "gt": 9,
+        "pred": 16,
+        "match": 8,
+        "delete": 8,
+        "add": 1,
+        "edit": 0,
+        "cost": 3.4
+      },
+      "s05f35": {
+        "gt": 6,
+        "pred": 41,
+        "match": 5,
+        "delete": 36,
+        "add": 1,
+        "edit": 0,
+        "cost": 11.8
+      }
+    },
+    "changed_frames": 3,
+    "identical_frames": 0
+  },
+  "B": {
+    "totals": {
+      "gt": 145,
+      "pred": 155,
+      "match": 111,
+      "delete": 44,
+      "add": 34,
+      "edit": 2,
+      "cost": 48.2
+    },
+    "classes": {
+      "delete": {
+        "Car": 28,
+        "Cyclist": 15,
+        "Pedestrian": 1
+      },
+      "add": {
+        "Pedestrian": 12,
+        "Truck": 3,
+        "Cyclist": 8,
+        "Bus": 6,
+        "Car": 5
+      },
+      "edit": {
+        "Cyclist": 1,
+        "Truck": 1
+      }
+    },
+    "per_frame": {
+      "s01f02": {
+        "gt": 30,
+        "pred": 19,
+        "match": 17,
+        "delete": 2,
+        "add": 13,
+        "edit": 1,
+        "cost": 14.1
+      },
+      "s01f33": {
+        "gt": 6,
+        "pred": 7,
+        "match": 5,
+        "delete": 2,
+        "add": 1,
+        "edit": 0,
+        "cost": 1.6
+      },
+      "s01f59": {
+        "gt": 18,
+        "pred": 19,
+        "match": 15,
+        "delete": 4,
+        "add": 3,
+        "edit": 0,
+        "cost": 4.2
+      },
+      "s02f01": {
+        "gt": 7,
+        "pred": 9,
+        "match": 6,
+        "delete": 3,
+        "add": 1,
+        "edit": 1,
+        "cost": 2.4
+      },
+      "s02f28": {
+        "gt": 9,
+        "pred": 11,
+        "match": 7,
+        "delete": 4,
+        "add": 2,
+        "edit": 0,
+        "cost": 3.2
+      },
+      "s02f55": {
+        "gt": 7,
+        "pred": 10,
+        "match": 6,
+        "delete": 4,
+        "add": 1,
+        "edit": 0,
+        "cost": 2.2
+      },
+      "s03f08": {
+        "gt": 14,
+        "pred": 18,
+        "match": 10,
+        "delete": 8,
+        "add": 4,
+        "edit": 0,
+        "cost": 6.4
+      },
+      "s03f32": {
+        "gt": 5,
+        "pred": 6,
+        "match": 3,
+        "delete": 3,
+        "add": 2,
+        "edit": 0,
+        "cost": 2.9
+      },
+      "s03f51": {
+        "gt": 8,
+        "pred": 14,
+        "match": 6,
+        "delete": 8,
+        "add": 2,
+        "edit": 0,
+        "cost": 4.4
+      },
+      "s04f08": {
+        "gt": 17,
+        "pred": 19,
+        "match": 15,
+        "delete": 4,
+        "add": 2,
+        "edit": 0,
+        "cost": 3.2
+      },
+      "s04f28": {
+        "gt": 15,
+        "pred": 14,
+        "match": 13,
+        "delete": 1,
+        "add": 2,
+        "edit": 0,
+        "cost": 2.3
+      },
+      "s04f53": {
+        "gt": 9,
+        "pred": 9,
+        "match": 8,
+        "delete": 1,
+        "add": 1,
+        "edit": 0,
+        "cost": 1.3
+      }
+    },
+    "changed_frames": 12,
+    "identical_frames": 0
+  }
+}

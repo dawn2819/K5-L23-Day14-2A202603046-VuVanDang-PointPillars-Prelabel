@@ -1,0 +1,34 @@
+15 cấu hình × 3 frame
+  {'score_thr': '0.1', 'min_points': '0'}  → chi phí 24.4
+  {'score_thr': '0.1', 'min_points': '5'}  → chi phí 23.8
+  {'score_thr': '0.1', 'min_points': '10'}  → chi phí 23.5
+  {'score_thr': '0.2', 'min_points': '0'}  → chi phí 23.9
+  {'score_thr': '0.2', 'min_points': '5'}  → chi phí 23.3
+  {'score_thr': '0.2', 'min_points': '10'}  → chi phí 23.3
+  {'score_thr': '0.3', 'min_points': '0'}  → chi phí 17.3
+  {'score_thr': '0.3', 'min_points': '5'}  → chi phí 17.0
+  {'score_thr': '0.3', 'min_points': '10'}  → chi phí 17.0
+  {'score_thr': '0.4', 'min_points': '0'}  → chi phí 12.0
+  {'score_thr': '0.4', 'min_points': '5'}  → chi phí 12.0
+  {'score_thr': '0.4', 'min_points': '10'}  → chi phí 12.0
+  {'score_thr': '0.5', 'min_points': '0'}  → chi phí 10.6
+  {'score_thr': '0.5', 'min_points': '5'}  → chi phí 10.6
+  {'score_thr': '0.5', 'min_points': '10'}  → chi phí 10.6
+
+Top 10 (ghi đủ ở out\sweep_verification.csv):
+    10.60  xóa  12 thêm   7 sửa   0  {'score_thr': '0.5', 'min_points': '0'}
+    10.60  xóa  12 thêm   7 sửa   0  {'score_thr': '0.5', 'min_points': '5'}
+    10.60  xóa  12 thêm   7 sửa   0  {'score_thr': '0.5', 'min_points': '10'}
+    12.00  xóa  20 thêm   6 sửa   0  {'score_thr': '0.4', 'min_points': '0'}
+    12.00  xóa  20 thêm   6 sửa   0  {'score_thr': '0.4', 'min_points': '5'}
+    12.00  xóa  20 thêm   6 sửa   0  {'score_thr': '0.4', 'min_points': '10'}
+    17.00  xóa  40 thêm   5 sửa   0  {'score_thr': '0.3', 'min_points': '5'}
+    17.00  xóa  40 thêm   5 sửa   0  {'score_thr': '0.3', 'min_points': '10'}
+    17.30  xóa  41 thêm   5 sửa   0  {'score_thr': '0.3', 'min_points': '0'}
+    23.30  xóa  61 thêm   5 sửa   0  {'score_thr': '0.2', 'min_points': '5'}
+Cấu hình tốt nhất → out\best_config_verification.json
+
+Leave-one-out (chọn trên các frame còn lại, chấm trên frame bỏ ra):
+  s01f20: cấu hình chọn {'score_thr': '0.5', 'min_points': '0'} → 4.9 (tốt nhất có thể 4.5)
+  s04f41: cấu hình chọn {'score_thr': '0.5', 'min_points': '0'} → 1.3 (tốt nhất có thể 1.3)
+  s05f35: cấu hình chọn {'score_thr': '0.4', 'min_points': '0'} → 5.9 (tốt nhất có thể 4.4)

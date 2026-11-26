@@ -1,0 +1,12 @@
+PASS: All required submission data files exist.
+PASS: A has 3 unique frames, matching prediction/reference, seed_tag retained.
+PASS: B has 12 unique frames, matching prediction/reference, seed_tag retained.
+PASS: Three comparison images are readable.
+PASS: Prediction section 1 is identical to commit 6947d29.
+PASS: Report is filled; all relative evidence/image links resolve.
+PASS: Saved CVAT A/B have no Tracks; A equals local ref_A; B exported from task 31.
+PASS: All 12 B frames differ from pre-labels; cost is 48.2 (44 delete, 34 add, 2 edit).
+PASS: B prediction config equals best_config.json.
+NOTE: Original coach SEED is unavailable; selection cannot be independently regenerated. Frame lists were not edited.
+NOTE: This validates files and metrics, not exhaustive visual correctness of every cuboid.
+NOTE: Current repository name differs from the naming pattern in SUBMISSION.md.

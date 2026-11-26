@@ -1,0 +1,10 @@
+Tham số đã đổi: score_thr: 0.1 -> 0.5
+
+frame     chi phí gốc   của bạn
+s01f20            9.2       4.9
+s04f41            3.4       1.3
+s05f35           11.8       4.4
+TỔNG             24.4      10.6
+
+Cấu hình của bạn giảm 57% công sửa so với cấu hình gốc trên 3 frame.
+Ảnh so sánh: d14_2A202603046\compare/
